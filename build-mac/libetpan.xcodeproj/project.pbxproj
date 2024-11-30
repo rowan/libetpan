@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1803,7 +1803,6 @@
 				LastUpgradeCheck = 0600;
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "libetpan" */;
-			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -1813,6 +1812,7 @@
 				German,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* libetpan */;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2590,7 +2590,7 @@
 					"$(SRCROOT)/libsasl-ios/include",
 				);
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libsasl-ios/lib";
 				PRODUCT_NAME = "etpan-ios";
 				SDKROOT = iphoneos;
@@ -2611,7 +2611,7 @@
 					"$(SRCROOT)/libsasl-ios/include",
 				);
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/libsasl-ios/lib";
 				PRODUCT_NAME = "etpan-ios";
 				SDKROOT = iphoneos;
